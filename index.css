@@ -1,0 +1,30 @@
+body {
+    background: lightgrey;
+}
+
+.content-linear {
+    width: 25px;
+    margin: 10px auto;
+    color: white;
+    padding: 25px;
+    background: linear-gradient(to right, red,yellow,darkred);
+    align-content: center;
+}
+
+.content-circle {
+    width: 25px;
+    margin: 25px auto;
+    color: white;
+    padding: 25px;
+    background: radial-gradient(circle farthest-corner at 50% 20%,red,yellow,darkred);
+    align-content: center;
+}
+
+.content-ellipse {
+    width: 25px;
+    margin: 0 auto;
+    color: white;
+    padding: 25px;
+    background: radial-gradient(ellipse farthest-corner at 50% 20%,red,yellow,darkred);
+    align-content: center;
+}
